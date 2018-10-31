@@ -1,0 +1,22 @@
+/*Seletor Global*/
+h1{
+    color: cornflowerblue;
+    text-align: center;
+}
+h2{
+    color: brown;
+}
+h5{
+    color: brown;
+}
+h3{
+    color: cornflowerblue;
+    text-align: center;
+}
+/*Seletor específico*/
+p.especifico{
+    color: cornflowerblue;
+}
+.especifico{
+    font-family: monospace;
+}
