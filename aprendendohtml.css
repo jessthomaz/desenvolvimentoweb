@@ -1,0 +1,42 @@
+/*Seletor Global*/
+}
+h2{
+    color: brown;
+}
+h5{
+    color: brown;
+}
+h3{
+    color: cornflowerblue;
+    text-align: center;
+}
+/*Seletor específico*/
+p.especifico{
+    color: cornflowerblue;
+}
+.especifico{
+    font-family: monospace;
+}
+body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana,
+        sans-serif;
+    line-height: 1.6;
+}
+.container{
+    margin: 0 auto;
+    width: 960px;
+    border-color: #CCC #999 #999 #CCC;
+    border: 1px solid #CCC;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.place h1{
+    border-bottom: 2px dashed black;
+    margin: 0;
+    text-align: center;
+}
+.codigo h1{
+    border-bottom: 2px dashed black;
+    margin: 0;
+    text-align: center;
+}
