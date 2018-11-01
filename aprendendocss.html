@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name"description" content="Blog Clube de TI: compartilhando conhecimentos">
+        <title>Clube de TI - CSS</title>
+        <link type="text/css" rel="stylesheet" href="aprendendocss.css">
+    </head>
+    
+    <body>
+        <h1>Clube do TI</h1>
+        <div class="container">
+        <div class="place">
+        <h1>Aprendendo CSS</h1>
+        <p>
+            Para começar o CSS da nossa página a largura disponível para o conteúdo e centralizar o mesmo na página, deixando um espaço em branco nas laterais. Utilizaremos a TAG div em volta de todo o HTML, ficando desta forma:
+        </p>
+        <textarea style="margin-left: 150px; margin-right: 200px; width: 80%; height: 60px">
+                <div class='container'>
+                        <!-- Todo o corpo da página vem aqui... -->
+                </div>
+        </textarea>
+        <p>
+            E no CSS ficará dessa forma:
+        </p>
+        <textarea style="margin-left: 150px; margin-right: 200px; width: 80%; height: 80px">
+            .container{
+                margin: 0 auto;
+                width: 960px;
+            }
+        </textarea>
+        <p>
+            A propriedade width da largura para 960px, adequando o conteúdo a telas de pelo menos 1024px de largura, como tablets e netbooks. A margem superior e inferior está com 0, e as margens laterais em auto cuidam de centralizar o elemento na página.<br>
+            Agora é melhorar a exibição dos textos, ajustando um pouco o estilo das fontes com o seguinte código, que deve ser adicionado acima do CSS anterior:
+        </p>
+        <textarea style="margin-left: 150px; margin-right: 200px; width: 80%; height: 80px">
+            body {
+                font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana,
+                sans-serif;
+                line-height: 1.6;
+                }
+        </textarea>
+        <p>
+            Aqui, estamos trocando a família de fontes utilizadas para uma lista de 4 fontes diferentes que são utilizadas da seguinte maneira: caso a primeira fonte listada não esteja disponível no sistema operacional do usuário, o navegador tentará utilizar a próxima e assim sucessivamente.<br> 
+            A Lucida Grande será a fonte utilizada pelo Mac OS X ao exibir a nossa página, enquanto a Lucida Sans Unicode será vista por usuários do Windows, já que este sistema operacional não possui a primeira fonte da nossa lista. Em casos mais extremos, Verdana será utilizado ou o navegador irá exibir uma fonte sem serifa por padrão.
+        </p>
+        <h3>Acrescentando espaçamento e bordas:<h3>
+        <textarea style="margin-left: 150px; margin-right: 200px; width: 80%; height: 80px">
+            border-color: #CCC #999 #999 #CCC;
+            border: 1px solid #CCC;
+            margin-bottom: 20px;
+            padding: 10px;
+        </textarea>
+        </div>
+    </div>
+    </body>
+    
+<html>

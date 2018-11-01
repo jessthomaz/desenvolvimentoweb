@@ -1,0 +1,26 @@
+body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana,
+    sans-serif;
+    line-height: 1.6;
+    background-color: rgb(226, 247, 226);
+    }
+.container{
+    margin: 0 auto;
+    width: 960px;
+    border-color: #CCC #999 #999 #CCC;
+    border: 1px solid #CCC;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgb(241, 240, 240) /*url(images/noise.png);*/;
+}
+h3{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.place h1{
+    text-align: center;
+    border-bottom: 2px dashed black;
+    margin: 0;
+}
