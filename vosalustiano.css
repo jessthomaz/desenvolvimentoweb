@@ -1,0 +1,38 @@
+/*Fonte e fundo do Body*/
+body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana,
+    sans-serif;
+    line-height: 1.6;
+    background-image: url(fundoazul.jpg);
+    background-size: 70%;
+    }
+
+/*Borda do Body*/
+.border{
+    margin: 0 auto;
+    width: 960px;
+    border-color: #CCC #999 #999 #CCC;
+    border: 1px solid #CCC;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: white /*url(images/noise.png);*/;
+}
+
+/*Imagem do Topo*/
+.topo img{
+    /*
+    Tamanho da imagem feita no Photoshop
+    width: 2800px;
+    height: 700px;
+    */
+    max-width:100%;
+	height:auto;
+ }
+ 
+ .obs1{
+     color: red;
+ }
+ 
+ .cantigas{
+     text-align: center;
+ }
